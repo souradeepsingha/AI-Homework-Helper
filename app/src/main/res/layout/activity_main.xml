@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity"
+    android:background="#EAEAEA"
+
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_margin="15dp"
+        android:text="AI Homework Helper"
+        android:textColor="#3C3C3C"
+        android:id="@+id/buddybottext"
+        android:layout_alignParentTop="true"
+        />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/star1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+android:layout_below="@+id/buddybottext"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="0dp"
+        android:elevation="10dp"
+app:cardBackgroundColor="#ffffff"
+        android:background="#ffffff"
+        app:cardCornerRadius="10dp">
+    <EditText
+        android:id="@+id/eTPrompt"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:gravity="top"
+        android:padding="20dp"
+        android:hint="Enter your question here"
+        android:textSize="18dp"
+
+
+       android:background="@drawable/boxbackground"
+        android:textColor="#292929"
+
+        android:outlineAmbientShadowColor="#FFFFFF"
+        android:textColorHint="#B1B1B1"
+        android:shadowColor="#FFFFFF"
+        android:outlineSpotShadowColor="#FFFFFF"
+        android:textColorLink="#FFFFFF"
+        android:textColorHighlight="#FFFFFF"
+        android:layout_below="@+id/buddybottext"
+          android:layout_marginBottom="10dp"
+
+
+        android:inputType="text"/>
+    </androidx.cardview.widget.CardView>
+    <TextView
+        android:id="@+id/textlang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Homework Type"
+        android:textColor="#4A4A4A"
+        android:layout_below="@+id/star1"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:padding="10dp"
+        android:textSize="20dp" />
+    <androidx.cardview.widget.CardView
+        android:id="@+id/star"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textlang"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#ffffff"
+        android:layout_marginBottom="0dp"
+        android:elevation="10dp"
+        android:padding="10dp"
+        app:cardBackgroundColor="#ffffff"
+        app:cardCornerRadius="10dp">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+android:id="@+id/hmworktype"
+            android:orientation="vertical"
+            android:layout_marginLeft="20dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:layout_marginRight="20dp"
+
+            >
+
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:outlineAmbientShadowColor="#ffffff"
+                android:outlineSpotShadowColor="#ffffff"
+
+                />
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+
+        android:backgroundTint="#4D00C8"
+        android:textColor="#F3F3F3"
+    android:textSize="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+     android:layout_below="@+id/star"
+android:layout_marginBottom="10dp"
+        android:drawableRight="@drawable/baseline_send_24"
+        android:text="Generate essay" />
+
+
+
+
+
+<!--    <com.google.android.gms.ads.AdView-->
+<!--        xmlns:ads="http://schemas.android.com/apk/res-auto"-->
+<!--        android:id="@+id/adView"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_margin="10dp"-->
+<!--        android:layout_centerHorizontal="true"-->
+
+<!--        ads:adSize="BANNER"-->
+<!--       android:layout_below="@+id/btnSubmit"-->
+<!--        ads:adUnitId="ca-app-pub-8292587411522870/4579979382">-->
+<!--    </com.google.android.gms.ads.AdView>-->
+</RelativeLayout>

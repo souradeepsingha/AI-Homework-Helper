@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.FirstAIApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">#636363</item>
+        <!--   darker variant for the status bar and contextual app bars -->
+        <item name="colorPrimaryDark">#717171</item>
+        <!--   theme UI controls like checkboxes and text fields -->
+        <item name="colorAccent">#707070</item>
+
+    </style>
+
+    <style name="Theme.FirstAIApp" parent="Base.Theme.FirstAIApp" />
+</resources>

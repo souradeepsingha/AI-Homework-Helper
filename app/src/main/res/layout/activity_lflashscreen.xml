@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:gravity="center"
+    tools:context=".lflashscreen"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    >
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/iv_image"
+        android:src="@drawable/ahh2"
+        app:civ_border_width="0dp"
+        app:civ_border_color="#FFFFFF"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AI Homework Helper"
+
+      android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
+
+        android:textSize="25dp"
+
+        android:textColor="#000000"
+        />
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottieAnimationView"
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        app:lottie_autoPlay="true"
+        android:scaleType="centerCrop"
+        app:lottie_rawRes="@raw/linearprogres"
+        app:lottie_loop="true"
+
+
+        />
+
+</LinearLayout>
