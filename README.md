@@ -41,7 +41,7 @@
 ## 📩 Contact & Support
 
 For queries or suggestions, please contact us:  
-📧 **support@aihomeworkhelper.app** *(replace with your actual support email)*
+📧 **bigbanti0@gmail.com** *(replace with your actual support email)*
 
 ---
 
