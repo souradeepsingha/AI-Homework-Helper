@@ -4,15 +4,15 @@ plugins {
 }
 
 android {
-    namespace = "com.aihomeworkhelper.user"
+    namespace = "com.aiquestionsolver.user"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.aihomeworkhelper.user"
+        applicationId = "com.aiquestionsolver.user"
         minSdk = 26
         targetSdk = 34
-        versionCode = 1
-        versionName = "1.0"
+        versionCode = 6
+        versionName = "1.5"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -51,7 +51,7 @@ dependencies {
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
     implementation("com.google.ai.client.generativeai:generativeai:0.1.2")
-//    implementation ("com.google.android.gms:play-services-ads:22.6.0")
+    implementation ("com.google.android.gms:play-services-ads:22.6.0")
     implementation ("com.airbnb.android:lottie:6.0.0")
     implementation ("de.hdodenhof:circleimageview:3.1.0")
 

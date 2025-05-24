@@ -17,21 +17,9 @@
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:id="@+id/iv_image"
-        android:src="@drawable/ahh2"
+        android:src="@drawable/codebotpic"
         app:civ_border_width="0dp"
         app:civ_border_color="#FFFFFF"/>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="AI Homework Helper"
-
-      android:layout_marginTop="15dp"
-        android:layout_marginBottom="10dp"
-
-        android:textSize="25dp"
-
-        android:textColor="#000000"
-        />
     <com.airbnb.lottie.LottieAnimationView
         android:id="@+id/lottieAnimationView"
         android:layout_width="250dp"
