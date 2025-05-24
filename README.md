@@ -24,7 +24,7 @@
 
 ## 🛠 Built With
 
-- **Java** – Core development language  
+- **Kotlin** – Core development language  
 - **Gemini API** – For AI-powered content generation  
 - **Retrofit** – For API communication  
 - **Material UI** – For a modern Android experience
